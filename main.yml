@@ -4,7 +4,7 @@
   become: yes
   gather_facts: yes
   tags:
-    - kwuxlab_maintenance_reboot
+    - kwuxlab_ansible_maintenance_reboot
   pre_tasks:
     - name: Collect facts
       ansible.builtin.setup:
